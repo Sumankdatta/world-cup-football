@@ -172,3 +172,102 @@ hr {
     padding: 0 13px;
     font-size: 28px;
 }
+
+/* media queries */
+/* mobile device */
+
+@media only screen and (max-width:688px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .container {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .top-banner {
+        flex-direction: column;
+
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .title-section h1 {
+        font-size: 25px;
+    }
+
+    .top-banner img {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    /* manu-section */
+    .manue-aside {
+        flex-direction: column;
+
+
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin-left: 1%;
+        padding: 0%;
+        font-size: 14px;
+        justify-content: center;
+    }
+
+    .side-manue {
+        background-color: white;
+
+    }
+
+    .side-manue a {
+        border: 1px solid lightgrey;
+        margin-left: 0%;
+        width: 75%;
+
+    }
+
+    .card-image img {
+        width: 100%;
+        margin-right: 15px;
+
+    }
+
+    footer {
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer-class {
+        margin-left: 40%;
+    }
+
+    hr {
+        margin-top: 25%;
+    }
+
+    .policy-items {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #policy h4 {
+        margin-top: 27%;
+    }
+
+    .social-site {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 22%;
+
+    }
+
+
+}
