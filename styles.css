@@ -210,6 +210,7 @@ hr {
     .top-banner img {
         margin-top: 50px;
         width: 100%;
+
     }
 
     /* manu-section */
@@ -223,7 +224,7 @@ hr {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
-        margin-left: 1%;
+        margin-left: 7%;
         padding: 0%;
         font-size: 14px;
         justify-content: center;
@@ -232,8 +233,8 @@ hr {
     .side-manue {
         background-color: white;
         flex-direction: column;
-        width: 100%;
-        margin-left: 0%;
+        width: 80%;
+        margin-left: 8%;
         padding: 0%;
     }
 
@@ -315,7 +316,7 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
-        margin-left: 1%;
+        margin-left: 8%;
         padding: 0%;
         font-size: 14px;
         justify-content: center;
@@ -324,9 +325,9 @@ hr {
     .side-manue {
         background-color: white;
         display: flex;
-        width: 90%;
+        width: 80%;
         height: 20%;
-        margin-left: 2%;
+        margin-left: 8%;
         margin-bottom: 5%;
         padding: 0%;
     }
